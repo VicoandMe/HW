@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1453083255 source:/home/liang/Desktop/HW/OJ_Project/source/OJ.cpp
+	"OJ.h"
+
+1453083554 /home/liang/Desktop/HW/OJ_Project/source/OJ.h
+	<string.h>
+

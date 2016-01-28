@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>CExampleTest::TestCase01</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>f:\¼¼ÄÜ¼ø¶¨Ìâ\nastar\»ù±¾¹¤³Ì\°Ù·ÖÖÆ³É¼¨\testcase\cexampletest.cpp</File>
+        <Line>47</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: -1 == ScoreLevel(-1)
+</Message>
+    </FailedTest>
+    <FailedTest id="2">
+      <Name>CExampleTest::TestCase02</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>f:\¼¼ÄÜ¼ø¶¨Ìâ\nastar\»ù±¾¹¤³Ì\°Ù·ÖÖÆ³É¼¨\testcase\cexampletest.cpp</File>
+        <Line>52</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: &apos;A&apos; == ScoreLevel(90)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests></SuccessfulTests>
+  <Statistics>
+    <Tests>2</Tests>
+    <FailuresTotal>2</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>2</Failures>
+  </Statistics>
+</TestRun>

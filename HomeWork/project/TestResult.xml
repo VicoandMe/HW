@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>CExampleTest::TestCase01</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>c:\documents and settings\z00216165\desktop\new\Ìá½»\±¸·Ý01¹ýÒ»¸öÓÃÀý£¬ÓÐ´úÂë\oj template\testcase\cexampletest.cpp</File>
+        <Line>52</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: abs(37.00 - Ret) &lt;= 0.01
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests></SuccessfulTests>
+  <Statistics>
+    <Tests>1</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>

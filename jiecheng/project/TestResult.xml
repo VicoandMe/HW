@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>CExampleTest::TestCase01</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>e:\3.¼¼ÄÜ¼ø¶¨\Èí¼þÆ½Ì¨³öÌâ\m01\testcase\cexampletest.cpp</File>
+        <Line>54</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0 == strcmp(p, &quot;6227020800&quot;)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests></SuccessfulTests>
+  <Statistics>
+    <Tests>1</Tests>
+    <FailuresTotal>1</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>1</Failures>
+  </Statistics>
+</TestRun>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="3">
+      <Name>CExampleTest::TestCaseStart</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>d:\ff\01 work\04 ×ÔÑ§Æ½Ì¨\ÎÞÏß\ÊÔÌâ\30\oj template\testcase\cexampletest.cpp</File>
+        <Line>72</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: (pOutputstr != NULL) &amp;&amp; (strcmp(pOutputstr,&quot;0123&quot;) == 0)
+</Message>
+    </FailedTest>
+    <FailedTest id="6">
+      <Name>CExampleTest::TestCaseMiddle</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>d:\ff\01 work\04 ×ÔÑ§Æ½Ì¨\ÎÞÏß\ÊÔÌâ\30\oj template\testcase\cexampletest.cpp</File>
+        <Line>99</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: (pOutputstr != NULL) &amp;&amp; (strcmp(pOutputstr,&quot;123456789&quot;) == 0)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>CExampleTest::TestCaseLast0</Name>
+    </Test>
+    <Test id="2">
+      <Name>CExampleTest::TestCaseLast1</Name>
+    </Test>
+    <Test id="4">
+      <Name>CExampleTest::TestCaseStart1</Name>
+    </Test>
+    <Test id="5">
+      <Name>CExampleTest::TestCaseSameLength</Name>
+    </Test>
+    <Test id="7">
+      <Name>CExampleTest::TestCaseNoDigital</Name>
+    </Test>
+    <Test id="8">
+      <Name>CExampleTest::TestCaseDigital</Name>
+    </Test>
+    <Test id="9">
+      <Name>CExampleTest::TestCaseNull</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>9</Tests>
+    <FailuresTotal>2</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>2</Failures>
+  </Statistics>
+</TestRun>

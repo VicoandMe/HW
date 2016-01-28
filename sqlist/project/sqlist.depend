@@ -1,0 +1,232 @@
+# depslib dependency file v1.0
+1453788981 source:/home/liang/Desktop/HW/sqlist/source/sqlist.cpp
+	<stdlib.h>
+	<iostream>
+
+1332211094 source:/home/liang/Desktop/HW/sqlist/testcase/CExampleTest.cpp
+	<cppunit/config/SourcePrefix.h>
+	"CExampleTest.h"
+	<stdlib.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/SourcePrefix.h
+	<cppunit/Portability.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Portability.h
+	<cppunit/config/config-bcb5.h>
+	<cppunit/config/config-evc4.h>
+	<cppunit/config/config-msvc6.h>
+	<cppunit/config-auto.h>
+	<cppunit/config/CppUnitApi.h>
+	<cppunit/config/SelectDllLoader.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/config-bcb5.h
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/config-evc4.h
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/config-msvc6.h
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/CppUnitApi.h
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/config/SelectDllLoader.h
+
+1332164860 /home/liang/Desktop/HW/sqlist/testcase/CExampleTest.h
+	<cppunit/extensions/HelperMacros.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/HelperMacros.h
+	<cppunit/TestCaller.h>
+	<cppunit/TestSuite.h>
+	<cppunit/extensions/AutoRegisterSuite.h>
+	<cppunit/extensions/ExceptionTestCaseDecorator.h>
+	<cppunit/extensions/TestFixtureFactory.h>
+	<cppunit/extensions/TestNamer.h>
+	<cppunit/extensions/TestSuiteBuilderContext.h>
+	<memory>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestCaller.h
+	<cppunit/Exception.h>
+	<cppunit/TestCase.h>
+	<cppunit/extensions/TypeInfoHelper.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Exception.h
+	<cppunit/Portability.h>
+	<cppunit/Message.h>
+	<cppunit/SourceLine.h>
+	<exception>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Message.h
+	<cppunit/Portability.h>
+	<cppunit/portability/CppUnitDeque.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/portability/CppUnitDeque.h
+	<cppunit/Portability.h>
+	<deque>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/SourceLine.h
+	<cppunit/Portability.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestCase.h
+	<cppunit/Portability.h>
+	<cppunit/TestLeaf.h>
+	<cppunit/TestAssert.h>
+	<cppunit/TestFixture.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestLeaf.h
+	<cppunit/Test.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Test.h
+	<cppunit/Portability.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestAssert.h
+	<cppunit/Portability.h>
+	<cppunit/Exception.h>
+	<cppunit/Asserter.h>
+	<cppunit/portability/Stream.h>
+	<stdio.h>
+	<float.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Asserter.h
+	<cppunit/AdditionalMessage.h>
+	<cppunit/SourceLine.h>
+	<string>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/AdditionalMessage.h
+	<cppunit/Message.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/portability/Stream.h
+	<cppunit/Portability.h>
+	<string>
+	<stdio.h>
+	<string.h>
+	<sstream>
+	<fstream>
+	<string>
+	<strstream>
+	<strstream.h>
+	<iostream>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestFixture.h
+	<cppunit/Portability.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TypeInfoHelper.h
+	<cppunit/Portability.h>
+	<typeinfo>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestSuite.h
+	<cppunit/Portability.h>
+	<cppunit/TestComposite.h>
+	<cppunit/portability/CppUnitVector.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestComposite.h
+	<cppunit/Test.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/portability/CppUnitVector.h
+	<cppunit/Portability.h>
+	<vector>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/AutoRegisterSuite.h
+	<cppunit/extensions/TestSuiteFactory.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<string>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestSuiteFactory.h
+	<cppunit/extensions/TestFactory.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestFactory.h
+	<cppunit/Portability.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestFactoryRegistry.h
+	<cppunit/Portability.h>
+	<cppunit/portability/CppUnitSet.h>
+	<cppunit/extensions/TestFactory.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/portability/CppUnitSet.h
+	<cppunit/Portability.h>
+	<functional>
+	<set>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/ExceptionTestCaseDecorator.h
+	<cppunit/Portability.h>
+	<cppunit/Exception.h>
+	<cppunit/extensions/TestCaseDecorator.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestCaseDecorator.h
+	<cppunit/Portability.h>
+	<cppunit/TestCase.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestFixtureFactory.h
+	<cppunit/Portability.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestNamer.h
+	<cppunit/Portability.h>
+	<string>
+	<typeinfo>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/extensions/TestSuiteBuilderContext.h
+	<cppunit/Portability.h>
+	<cppunit/portability/CppUnitMap.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/portability/CppUnitMap.h
+	<cppunit/Portability.h>
+	<functional>
+	<map>
+
+1243752060 source:/home/liang/Desktop/HW/sqlist/project/main.cpp
+	<cppunit/TextOutputter.h>
+	<cppunit/XmlOutputter.h>
+	<cppunit/BriefTestProgressListener.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/TestResult.h>
+	<cppunit/TestResultCollector.h>
+	<cppunit/TestRunner.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TextOutputter.h
+	<cppunit/Portability.h>
+	<cppunit/Outputter.h>
+	<cppunit/portability/Stream.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/Outputter.h
+	<cppunit/Portability.h>
+
+1243752054 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/XmlOutputter.h
+	<cppunit/Portability.h>
+	<cppunit/Outputter.h>
+	<cppunit/portability/CppUnitDeque.h>
+	<cppunit/portability/CppUnitMap.h>
+	<cppunit/portability/Stream.h>
+
+1243752050 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/BriefTestProgressListener.h
+	<cppunit/TestListener.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestListener.h
+	<cppunit/Portability.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestResult.h
+	<cppunit/Portability.h>
+	<cppunit/SynchronizedObject.h>
+	<cppunit/portability/CppUnitDeque.h>
+	<string>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/SynchronizedObject.h
+	<cppunit/Portability.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestResultCollector.h
+	<cppunit/Portability.h>
+	<cppunit/TestSuccessListener.h>
+	<cppunit/portability/CppUnitDeque.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestSuccessListener.h
+	<cppunit/SynchronizedObject.h>
+	<cppunit/TestListener.h>
+
+1243752052 /home/liang/Desktop/HW/sqlist/cppunit-1.12.1/include/cppunit/TestRunner.h
+	<cppunit/TestSuite.h>
+	<string>
+
