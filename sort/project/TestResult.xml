@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="11">
+      <Name>CExampleTest::TestCase11</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>..\testcase\CExampleTest.cpp</File>
+        <Line>375</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0 == add_host_name(input[i])
+</Message>
+    </FailedTest>
+    <FailedTest id="13">
+      <Name>CExampleTest::TestCase13</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>..\testcase\CExampleTest.cpp</File>
+        <Line>428</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0 == add_host_name(input)
+</Message>
+    </FailedTest>
+    <FailedTest id="15">
+      <Name>CExampleTest::TestCase15</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>..\testcase\CExampleTest.cpp</File>
+        <Line>467</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: 0 == add_host_name(input)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>CExampleTest::TestCase01</Name>
+    </Test>
+    <Test id="2">
+      <Name>CExampleTest::TestCase02</Name>
+    </Test>
+    <Test id="3">
+      <Name>CExampleTest::TestCase03</Name>
+    </Test>
+    <Test id="4">
+      <Name>CExampleTest::TestCase04</Name>
+    </Test>
+    <Test id="5">
+      <Name>CExampleTest::TestCase05</Name>
+    </Test>
+    <Test id="6">
+      <Name>CExampleTest::TestCase06</Name>
+    </Test>
+    <Test id="7">
+      <Name>CExampleTest::TestCase07</Name>
+    </Test>
+    <Test id="8">
+      <Name>CExampleTest::TestCase08</Name>
+    </Test>
+    <Test id="9">
+      <Name>CExampleTest::TestCase09</Name>
+    </Test>
+    <Test id="10">
+      <Name>CExampleTest::TestCase10</Name>
+    </Test>
+    <Test id="12">
+      <Name>CExampleTest::TestCase12</Name>
+    </Test>
+    <Test id="14">
+      <Name>CExampleTest::TestCase14</Name>
+    </Test>
+    <Test id="16">
+      <Name>CExampleTest::TestCase16</Name>
+    </Test>
+    <Test id="17">
+      <Name>CExampleTest::TestCase17</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>17</Tests>
+    <FailuresTotal>3</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>3</Failures>
+  </Statistics>
+</TestRun>

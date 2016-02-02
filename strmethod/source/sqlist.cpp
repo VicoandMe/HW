@@ -1,0 +1,154 @@
+/******************************************************************************
+
+  Copyright (C), 2001-2011, Huawei Tech. Co., Ltd.
+
+ ******************************************************************************
+  File Name     : 
+  Version       : 
+  Author        : 
+  Created       : 2012/03/12
+  Last Modified :
+  Description   : 
+  Function List :
+              
+  History       :
+  1.Date        : 2012/03/12
+    Author      : 
+    Modification: Created file
+
+******************************************************************************/
+#include <stdlib.h>
+#include <malloc.h>
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+unsigned int strlenth(char *s)  /* 获取字符串长度 */
+{
+	unsigned int lenth = 0;
+
+  for(;s[lenth] != '\0'; lenth++) {
+	}
+
+	return lenth;
+}
+
+void strcopy(char **target, char *source)  /* 字符串拷贝 */
+{
+  char *p;
+	p = (char *)malloc(100);
+	for (int i = 0; i <= strlenth(source); i++) {
+	  p[i] = source[i];
+	}
+	*target = p;
+}
+
+int strcompare(char *s, char *t)  /* 字符串比较，s>t，则返回1；s=t，则返回0；s<t，则返回-1 */
+{
+	/* 代码在这里实现 */
+  int lengths = strlenth(s);
+  int lengtht = strlenth(t);
+	int i = 0, j = 0;
+	while(i < lengths && j <lengtht) {
+	  if(s[i] > t[j]) {
+		  return 1;
+		} else if (s[i] < t[j]) {
+		  return -1;
+		} else if (s[i] == t[j]) {
+		  i++;
+			j++;
+		}
+	}
+	if (lengths > lengtht) {
+	  return 1;
+	} else if (lengths < lengtht) {
+    return -1;	
+	}
+	return 0;
+}
+
+void strcombine(char **x, char *s, char *t)  /* 字符串连接，将字符串t接到s后面，x为连接后的新串 */
+{
+	/* 代码在这里实现 */
+  char *p;
+	p = (char *)malloc(100);
+  int index = 0;
+	for (;index < strlenth(s); index++) {
+	  p[index] = s[index];
+	}
+	for (int i = 0; i <= strlenth(t); i++) {
+	  p[index] = t[i];
+		index++;
+	}
+	*x = p;
+}
+
+void strcatch(char *s, unsigned int index, unsigned int lenth, char **t)  /* 字符串截取，从第index个字符开始，截取lenth长度的字符串，并输出到字符串t */
+{
+	/* 代码在这里实现 */
+	if (lenth == 0) {
+	  return;
+	}
+	if (index + lenth > strlenth(s)) {
+	  return;
+	}
+  char *p;
+	p = (char *)malloc(100);
+  int i = 0;
+	for (i = 0; i < lenth; i++) {
+	  p[i] = s[index + i];
+	}
+	p[i] = '\0';
+	*t = p;
+}
+
+
+void makeNext(char *p, int *next) {
+  int q,k;
+	int m = strlenth(p);
+	next[0] = 0;
+	for (q = 1, k = 0; q < m; q++) {
+	  while(k > 0 && p[q] != p[k])
+			k = next[k-1];
+		if (p[q] == p[k]) {
+		  k++;
+		}
+		next[q] = k;
+	}
+}
+
+bool strsubstr(char *s, char *sub)  /* 字符串子串查找，如果子串sub在s中存在，则返回1，否则返回0 */
+{
+	if (s == 0) {
+	  return 0;
+	}
+	bool result = 0;
+  
+  int n,m;
+	int i,q;
+	int next[100];
+	n = strlenth(s);
+	m = strlenth(sub);
+	makeNext(sub, next);
+	for (i = 0, q = 0; i < n;i++) {
+	  while (q > 0 && sub[q] != s[i])
+			q = next[q-1];
+		if (sub[q] == s[i]) {
+		  q++;
+		}
+		if (q == m) {
+		  return 1;
+		}
+	}
+
+	return 0;
+}
+/*
+int main () {
+	char s[] = "chinese is great";
+	char *x = 0;
+
+	strcatch(s, 8, 0, &x);
+	printf("%s\n", x);
+}
+*/
